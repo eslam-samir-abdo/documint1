@@ -1,0 +1,106 @@
+body{
+   font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    width: 50%;
+    border: 5px solid black;
+    position: absolute;
+    left: 20%;
+}
+
+
+
+h1 {
+    padding: 50px;
+        margin: 10px 0;
+    text-align: left;
+    color: #333;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    width: 83%;
+    height: 5px;
+    background-color: black;
+    z-index: -1;
+}
+
+
+
+h3 {
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    color: oklch(0.65 0.15 147.14);
+    position: relative;
+    top: -60px;
+    left: 27px;
+}
+
+p {
+   margin: 10px 0;
+    font-size: 1.2em;
+    text-align: left;
+    color: #555;
+    position: relative;
+    top: -60px;
+    left: 46px;
+}
+
+
+
+.Month {
+    color: oklch(0.61 0.13 248.87);
+    top: -81px;
+}
+
+ul{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: left;
+    color: #555;
+    position: relative;
+    top: -60px;
+    left: 46px;
+}
+
+ul li{
+    position: relative;
+    top: -11px;
+    left: 18px;
+}
+
+
+a {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: oklch(0.61 0.13 248.87);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+img{
+    width: 50px;
+    position: relative;
+    top: -71px;
+    right: -52px;
+}
+
+.get{
+    position: relative;
+    top: -133px;
+    left: 142px;
+}
